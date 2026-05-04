@@ -1,0 +1,11 @@
+# For graph data structures and shortest path utilities
+networkx==3.2.1
+
+# For plotting algorithm performance graphs and map visualizations
+matplotlib==3.8.2
+
+# For handling structured input data (optional but recommended for CO4)
+pandas==2.1.4
+
+# For high-performance numerical operations (useful for matrix-based algorithms)
+numpy==1.26.2
