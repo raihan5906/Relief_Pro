@@ -2,7 +2,7 @@
 
 def solve_01_knapsack(items, capacity):
     """
-    Solves 0/1 Knapsack using Dynamic Programming (Unit IV).
+    Solves 0/1 Knapsack using Dynamic Programming.
     Items: List of (name, weight, value)
     """
     n = len(items)
@@ -38,7 +38,7 @@ def solve_01_knapsack(items, capacity):
 
 def solve_fractional_knapsack(items, capacity):
     """
-    Solves Fractional Knapsack using Greedy Technique (Unit IV).
+    Solves Fractional Knapsack using Greedy Technique.
     Items: List of (name, weight, value)
     """
     # Greedy Choice: Sort by value/weight ratio descending
